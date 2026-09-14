@@ -8,6 +8,10 @@ max(edades)
 
 min(edades)
 
-plot(edades)
+plot(edades, 
+     type= 'b', 
+     main='edades de prueba',
+     xlab= 'persona', 
+     ylab='edad')
 
 median(edades)
